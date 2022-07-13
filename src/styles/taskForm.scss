@@ -1,0 +1,36 @@
+.principal{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+    .form{
+        background-color: #dff;
+        padding: 10px;
+        color: #000;
+        .secundario{
+            margin: 5px;
+            .input{
+                padding: 4px;
+                &:hover{
+                    color: gray;
+                    width: 100%;
+                }
+            }
+            .textarea{
+                padding: 4px;
+                &:hover{
+                    color: gray;
+                    width: 100%;
+                }
+            }
+        }
+        .boton{
+            border: none;
+            background-color: #6112C3;
+            &:hover{
+                background-color: #452171;
+            }
+        }
+    }
+
+}

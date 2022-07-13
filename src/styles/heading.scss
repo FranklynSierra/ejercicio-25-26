@@ -1,0 +1,29 @@
+.principal{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    h5{
+        color: #fff;
+        font: bold;
+        font-size: 2rem;
+    }
+}
+.principal-2{
+    flex-grow: initial;
+    text-align: right;
+    padding:4px 2px ;
+    .principal-2-boton{
+        display: inline-flex;
+        font-size: 2rem;
+        background: green;
+        border: none;
+        color: #fff;
+        padding: 2px 4px;
+        border-radius: 100px;
+       &:hover{
+        
+        background: #500;
+       } 
+
+    }
+}

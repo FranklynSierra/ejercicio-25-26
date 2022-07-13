@@ -1,0 +1,24 @@
+.principal{
+    display: flex;
+    justify-content: center;
+.principal-2{
+    justify-content: space-between;
+    .secundario{
+  background-color: #121AC3;
+  padding: 5px 20px;
+  box-shadow:5px ;
+  margin-bottom: 4px ;
+  display: flex;
+  justify-content: space-between;
+  .link{
+    text-decoration: none;
+  }
+.title{
+font-size:5rem;
+}
+.id{
+    font-size: 3rem;
+}
+}
+}
+}
